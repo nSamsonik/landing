@@ -196,3 +196,7 @@ body {
 .introButtons__link--opacity {
     border: 1px solid #666681;
 }
+
+.introButtons {
+    display: flex;
+}
