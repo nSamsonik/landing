@@ -1,0 +1,137 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+body {
+    font-family: 'Jost', sans-serif;
+    background-color: #020204;
+    color: #FFFFFF
+}
+
+.headerLine {
+    border-bottom: 1px solid #32323D;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.headerLineWrapper {
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerLineLanguages__link {
+    margin-right: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.headerLineLanguages__link.active {
+    color: #C7A17A;
+}
+
+.headerLineLanguages__link:last-child {
+    margin-right: 0px;
+}
+
+.headerLineWrapper__numberPhone {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.header {
+    border-bottom: 1px solid #32323D;
+}
+
+.headerWrapper {
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerWrapperLinks {
+    width: 40%;
+    display: flex;
+}
+
+.headerWrapperLinks__link.active {
+    color: #C7A17A;
+}
+
+.headerWrapperLinks__link {
+    margin-right: 35px;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+.headerWrapperLinks__link:last-child {
+    margin-right: 0px;
+}
+
+.headerWrapperLogo_logo {
+    display: block;
+}
+
+.headerActions {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.headerActionsWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.headerWrapperActionsLinks {
+    margin-right: 30px;
+    position: relative;
+}
+
+.headerWrapperActionsLinks:last-child {
+    margin-right: 0;
+}
+
+.headerWrapperActionsLinks__img {
+    display: block;
+}
+
+.headerWrapperActionsLinks__event {
+    display: block;
+    width: 6px;
+    height: 6px;
+    background-color: #C7A17A;
+    border-radius: 50%;
+    position: absolute;
+    top: -2px;
+    right: -1px;
+}
