@@ -20,8 +20,8 @@
             <div class="container">
                 <div class="headerLineWrapper">
                     <div class="headerLineLanguages">
-                        <a href="#" class="headerLineLanguages__link">ru</a>
-                        <a href="#" class="headerLineLanguages__link active">en</a>
+                        <a href="#" class="headerLineLanguages__button">ru</a>
+                        <a href="#" class="headerLineLanguages__button headerLineLanguages__button--active">en</a>
                     </div>
                     <a href="#" class="headerLineWrapper__numberPhone">+371000000</a>
                 </div>
@@ -29,32 +29,47 @@
         </div>
         <div class="container">
             <div class="headerWrapper">
-                <div class="headerWrapperLinks">
-                    <a href="#" class="headerWrapperLinks__link active">home</a>
-                    <a href="#" class="headerWrapperLinks__link">about</a>
-                    <a href="#" class="headerWrapperLinks__link">menu</a>
-                    <a href="#" class="headerWrapperLinks__link">reservation</a>
-                </div>
-                <a href="#" class="headerWrapperLogo">
-                    <img src="/img/logo.png" alt="" class="headerWrapperLogo_logo">
+                <nav class="headerMenu">
+                    <a href="#" class="headerMenu__link headerMenu__link--active">home</a>
+                    <a href="#" class="headerMenu__link">about</a>
+                    <a href="#" class="headerMenu__link">about</a>
+                    <a href="#" class="headerMenu__link headerMenu__link--disableMargin">reservation</a>
+                </nav>
+                <a href="#" class="headerLogo">
+                    <img src="/img/logo.png" alt="logo" class="headerLogo__img">
                 </a>
                 <div class="headerActions">
                     <div class="headerActionsWrapper">
-                        <a href="#" class="headerWrapperActionsLinks">
-                            <img src="/img/user-icon.svg" alt="user-icon" class="headerWrapperActionsLinks__img">
+                        <a href="#" class="headerActionsWrapper__link">
+                            <img src="/img/user-icon.svg" alt="user-icon" class="headerActionsWrapper__img">
                         </a>
-                        <a href="#" class="headerWrapperActionsLinks">
-                            <img src="/img/favorite-icon.svg" alt="favorite-icon" class="headerWrapperActionsLinks__img">
+                        <a href="#" class="headerActionsWrapper__link">
+                            <img src="/img/favorite-icon.svg" alt="favorite-icon" class="headerActionsWrapper__img">
                         </a>
-                        <a href="#" class="headerWrapperActionsLinks">
-                            <img src="/img/cart-icon.svg" alt="cart-icon" class="headerWrapperActionsLinks__img">
-                            <span class="headerWrapperActionsLinks__event"></span>
+                        <a href="#" class="headerActionsWrapper__link headerActionsWrapper__link--disableMargin">
+                            <img src="/img/cart-icon.svg" alt="cart-icon" class="headerActionsWrapper__img">
+                            <span class="headerActionsWrapper__event"></span>
                         </a>
                     </div>
                 </div>
             </div>
         </div>
     </header>
+
+    <div class="intro">
+        <div class="container">
+            <div class="introWrapper">
+                <intro class="introInfo">
+                    <h1 class="introInfo__title">Roasted coffee best choice</h1>
+                    <p class="introInfo__description">The coffee is brewed by first roasting the green coffee beans over hot coals in a brazier. given an opportunity to sample.</p>
+                    <div class="buttons">
+                        <a href="#" class="buttons__link">buy now</a>
+                        <a href="#" class="buttons__link">read more</a>
+                    </div>
+                </intro>
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>

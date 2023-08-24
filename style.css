@@ -17,12 +17,6 @@ ol, ul {
     list-style: none;
 }
 
-a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
-
 body {
     font-family: 'Jost', sans-serif;
     background-color: #020204;
@@ -45,25 +39,32 @@ body {
     align-items: center;
 }
 
-.headerLineLanguages__link {
+.headerLineLanguages {
+    display: flex;
+}
+
+.headerLineLanguages__button {
     margin-right: 10px;
     font-size: 14px;
     line-height: 20px;
     font-weight: 600;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
-.headerLineLanguages__link.active {
+.headerLineLanguages__button--active {
+    margin-right: 0;
     color: #C7A17A;
-}
-
-.headerLineLanguages__link:last-child {
-    margin-right: 0px;
 }
 
 .headerLineWrapper__numberPhone {
     font-size: 14px;
     line-height: 20px;
     font-weight: 600;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .header {
@@ -77,27 +78,30 @@ body {
     align-items: center;
 }
 
-.headerWrapperLinks {
-    width: 40%;
+.headerMenu {
     display: flex;
+    width: 40%;
 }
 
-.headerWrapperLinks__link.active {
-    color: #C7A17A;
-}
-
-.headerWrapperLinks__link {
+.headerMenu__link {
     margin-right: 35px;
     font-size: 15px;
     line-height: 22px;
     font-weight: 600;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
-.headerWrapperLinks__link:last-child {
-    margin-right: 0px;
+.headerMenu__link--active {
+    color: #C7A17A;
 }
 
-.headerWrapperLogo_logo {
+.headerMenu__link--disableMargin {
+    margin-right: 0;
+}
+
+.headerLogo {
     display: block;
 }
 
@@ -109,29 +113,44 @@ body {
 
 .headerActionsWrapper {
     display: flex;
-    align-items: center;
 }
 
-.headerWrapperActionsLinks {
+.headerActionsWrapper__link {
     margin-right: 30px;
+    text-decoration: none;
     position: relative;
 }
 
-.headerWrapperActionsLinks:last-child {
-    margin-right: 0;
-}
-
-.headerWrapperActionsLinks__img {
+.headerActionsWrapper__img {
     display: block;
 }
 
-.headerWrapperActionsLinks__event {
+.headerActionsWrapper__link--disableMargin {
+    margin-right: 0;
+}
+
+.headerActionsWrapper__event {
     display: block;
     width: 6px;
     height: 6px;
     background-color: #C7A17A;
     border-radius: 50%;
     position: absolute;
-    top: -2px;
-    right: -1px;
+    top: -3px;
+    right: -3px;
+}
+
+.intro {
+    background-image: url(/img/intro.jpg);
+}
+
+.introWrapper {
+    padding: 20px 0;
+    min-height: 720px;
+    display: flex;
+    align-items: center;
+}
+
+.introInfo {
+    max-width: 571px;
 }
