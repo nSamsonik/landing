@@ -145,12 +145,54 @@ body {
 }
 
 .introWrapper {
-    padding: 20px 0;
+    padding: 20px 0;    
     min-height: 720px;
     display: flex;
     align-items: center;
 }
 
 .introInfo {
-    max-width: 571px;
+    max-width: 571px;;
+}
+
+.introInfo__title {
+    margin-bottom: 35px;
+    font-size: 60px;
+    line-height: 86px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.introInfo__description {
+    margin-bottom: 35px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #DFDFDF;
+}
+
+.introButtons__link {
+    min-width: 200px;
+    height: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #FFFFFF;
+    border-radius: 10px;
+    text-transform: uppercase;
+    text-decoration: none;  
+    letter-spacing: 1.5px;
+}
+
+.introButtons__buy--color {
+    margin-right: 20px;
+    background-color: #C7A17A;
+}
+
+.introButtons__link--opacity {
+    border: 1px solid #666681;
 }
